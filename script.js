@@ -313,10 +313,10 @@ $(document).ready(function() {
         var pointCost2 = skillType.gradeValues[0]; // Use the first value in gradeValues
         var relevantStatValue2 = $('#' + skillType.statDependency.toLowerCase()).val();
         if (skillType.textInput) {
-            var skillRow = $('<div class="skill-row" data-stat-dependency="' + skillType.statDependency + '"><span>' + selectedSkill + '</span><input type="text" placeholder="Enter name"><select class="skill-grade"></select><span class="skill-cost">' + pointCost2 + '</span><button class="remove-button">&times;</button></div>');
+            var skillRow = $('<div class="skill-row" data-stat-dependency="' + skillType.statDependency + '"><span>' + selectedSkill + ' </span><input type="text" placeholder="Enter name"> <select class="skill-grade"></select> <span class="skill-cost">' + pointCost2 + '</span> <button class="remove-button">&times;</button></div>');
         }
         else {
-            var skillRow = $('<div class="skill-row" data-stat-dependency="' + skillType.statDependency + '"><span>' + selectedSkill + '</span><select class="skill-grade"></select><span class="skill-cost">' + pointCost2 + '</span><button class="remove-button">&times;</button></div>');
+            var skillRow = $('<div class="skill-row" data-stat-dependency="' + skillType.statDependency + '"><span>' + selectedSkill + ' </span> <select class="skill-grade"></select> <span class="skill-cost">' + pointCost2 + '</span> <button class="remove-button">&times;</button></div>');
         }
         $('#skill-list').append(skillRow);
         var $gradeDropdown2 = skillRow.find('.skill-grade');
@@ -374,7 +374,7 @@ $(document).ready(function() {
         var equipmentType = equipmentTypes.find(e => e.name === selectedEquipment);
         var relevantStatValue = $('#' + equipmentType.statDependency.toLowerCase()).val();
 
-        var equipmentRow = $('<div class="equipment-row" data-stat-dependency="' + equipmentType.statDependency + '"><span>' + selectedEquipment + '</span><span>(' + equipmentType.statDependency + ')</span><select class="equipment-grade"></select><span class="equipment-cost">' + pointCost + '</span><label><input type="checkbox" class="equipment-option" value="natural"> Natural weapon</label><label><input type="checkbox" class="equipment-option" value="mythril"> Mythril</label><label><input type="checkbox" class="equipment-option" value="orichalcum"> Orichalcum</label><button class="remove-button">&times;</button></div>');
+        var equipmentRow = $('<div class="equipment-row" data-stat-dependency="' + equipmentType.statDependency + '"><span>' + selectedEquipment + '</span> <select class="equipment-grade"></select> <span class="equipment-cost">' + pointCost + '</span> <label><input type="checkbox" class="equipment-option" value="natural"> Natural weapon</label><label><input type="checkbox" class="equipment-option" value="mythril"> Mythril</label><label><input type="checkbox" class="equipment-option" value="orichalcum"> Orichalcum</label> <button class="remove-button">&times;</button></div>');
         $('#equipment-list').append(equipmentRow);
         var $gradeDropdown = equipmentRow.find('.equipment-grade');
         
