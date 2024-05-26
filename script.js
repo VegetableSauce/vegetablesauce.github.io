@@ -30,7 +30,7 @@ $(document).ready(function() {
         { name: 'Swim Speed', statDependency: 'Speed', gradeValues: gradeValues },
         { name: 'Teleport', statDependency: 'Intelligence', gradeValues: gradeValues3 },
         { name: 'Tunneling', statDependency: 'Strength', gradeValues: gradeValues },
-        { name: '<----------------------Mental---------------------->', statDependency: ' ', gradeValues: gradeValues },
+        { name: '<------------------------Mental------------------------>', statDependency: ' ', gradeValues: gradeValues },
         { name: 'Composed', statDependency: 'ChGrade', gradeValues: gradeValues },
         { name: 'Mind Shield', statDependency: 'Intelligence', gradeValues: gradeValues },
         { name: 'Postcognition', statDependency: 'Intelligence', gradeValues: gradeValues2 },
@@ -38,14 +38,14 @@ $(document).ready(function() {
         { name: 'Mind Control', statDependency: 'Intelligence', gradeValues: gradeValues3 },
         { name: 'Telekinesis', statDependency: 'Intelligence', gradeValues: gradeValues4 },
         { name: 'Telepathy', statDependency: 'Intelligence', gradeValues: gradeValues3 },
-        { name: '<----------------------Martial---------------------->', statDependency: ' ', gradeValues: gradeValues },
+        { name: '<------------------------Martial------------------------>', statDependency: ' ', gradeValues: gradeValues },
         { name: 'Fighting Style Melee [Specialized]', statDependency: 'Strength', gradeValues: gradeValues },
         { name: 'Fighting Style Melee', statDependency: 'Strength', gradeValues: gradeValues },
         { name: 'Fighting Style Ranged [Specialized]', statDependency: 'Precision', gradeValues: gradeValues },
         { name: 'Fighting Style Ranged', statDependency: 'Precision', gradeValues: gradeValues },
         { name: 'Steady Hands', statDependency: 'Precision', gradeValues: gradeValues },
         { name: 'Superstrength', statDependency: 'Strength', gradeValues: gradeValues2 },
-        { name: '<----------------------Magic---------------------->', statDependency: ' ', gradeValues: gradeValues },
+        { name: '<-------------------------Magic------------------------->', statDependency: ' ', gradeValues: gradeValues },
         { name: 'Type Affinity 7 cost', statDependency: 'Intelligence', gradeValues: gradeValues },
         { name: 'Type Affinity 14 cost', statDependency: 'Intelligence', gradeValues: gradeValues2 },
         { name: 'Componentless Magic', statDependency: 'Magic', gradeValues: gradeValues3 },
@@ -62,9 +62,10 @@ $(document).ready(function() {
         { name: 'Summon Creature', statDependency: 'Intelligence', gradeValues: gradeValues6 },
         { name: 'Transformation', statDependency: 'Vitality', gradeValues: gradeValues4 },
         { name: 'Transmutation', statDependency: 'Intelligence', gradeValues: gradeValues5 },
-        { name: '<----------------------Sense---------------------->', statDependency: ' ', gradeValues: gradeValues },
+        { name: '<-------------------------Sense------------------------->', statDependency: ' ', gradeValues: gradeValues },
         { name: 'Appraisal (Isekai)', statDependency: 'ChGrade', gradeValues: NoValues },
         { name: 'Appraisal (Native)', statDependency: 'ChGrade', gradeValues: gradeValues },
+        { name: 'Feature', statDependency: 'NULL', gradeValues: gradeValues },
         { name: "Heightened Sense", statDependency: "Intelligence", gradeValues: gradeValues },
         { name: "Sixth Sense", statDependency: "Intelligence", gradeValues: gradeValues },
         { name: "Supersense", statDependency: "Intelligence", gradeValues: gradeValues },
@@ -80,11 +81,14 @@ $(document).ready(function() {
         { name: "Resistance [Physical]", statDependency: "Vitality", gradeValues: gradeValues3 },
         { name: "Resistance [Magical]", statDependency: "Vitality", gradeValues: gradeValues7 },
         { name: "Undetected", statDependency: "Precision", gradeValues: gradeValues2 },
-        { name: '<----------------------Misc---------------------->', statDependency: ' ', gradeValues: gradeValues },
+        { name: '<-------------------------Misc-------------------------->', statDependency: ' ', gradeValues: gradeValues },
         { name: "Alternate Identity", statDependency: 'Vitality', gradeValues: gradeValues },
         { name: "Attentive Student", statDependency: 'ChGrade', gradeValues: gradeValues },
         { name: "Bane", statDependency: 'ChGrade', gradeValues: gradeValues2 },
         { name: "Bolster", statDependency: "Intelligence", gradeValues: gradeValues },
+        { name: 'Capacity', statDependency: 'NULL', gradeValues: gradeValues },
+        { name: 'Chameleon', statDependency: 'NULL', gradeValues: gradeValues3 },
+        { name: 'Companion', statDependency: 'NULL', gradeValues: gradeValues5 },
         { name: "Concealment", statDependency: "Precision", gradeValues: gradeValues },
         { name: "Conversion", statDependency: "Vitality", gradeValues: gradeValues3 },
         { name: "[Martial] Coup", statDependency: "Intelligence", gradeValues: gradeValues7 },
@@ -93,6 +97,8 @@ $(document).ready(function() {
         { name: 'Educated', statDependency: 'ChGrade', gradeValues: gradeValues },
         { name: "Elasticity", statDependency: "Vitality", gradeValues: gradeValues2 },
         { name: "Essence Eater", statDependency: 'ChGrade', gradeValues: gradeValues4 },
+        { name: 'Gear', statDependency: 'NULL', gradeValues: gradeValues },
+        { name: 'Item', statDependency: 'NULL', gradeValues: gradeValues5 },
         { name: "Language", statDependency: "Intelligence", gradeValues: gradeValues },
         { name: "Lucky", statDependency: 'ChGrade', gradeValues: gradeValues },
         { name: "Mentor", statDependency: 'ChGrade', gradeValues: gradeValues },
@@ -101,6 +107,7 @@ $(document).ready(function() {
         { name: "Narrative Booster", statDependency: 'ChGrade', gradeValues: gradeValues2 },
         { name: "Nullify", statDependency: "Intelligence", gradeValues: gradeValues5 },
         { name: "Pocket Dimension", statDependency: "Intelligence", gradeValues: gradeValues2 },
+        { name: 'Sentience', statDependency: 'NULL', gradeValues: gradeValues2 },
         { name: "Size Change", statDependency: "Vitality", gradeValues: gradeValues5 },
         { name: "Skill Loan", statDependency: "Vitality", gradeValues: gradeValues3 },
         { name: "Tamer", statDependency: 'ChGrade', gradeValues: gradeValues },
@@ -135,6 +142,7 @@ $(document).ready(function() {
         {name: "Controlled Breathing", statDependency: "Vitality", gradeValues: gradeValues},
         {name: "Culture", statDependency: "Intelligence", gradeValues: gradeValues},
         {name: "Deception", statDependency: "ChGrade", gradeValues: gradeValues},
+        {name: 'Developer', statDependency: 'NULL', gradeValues: gradeValues },
         {name: "Disguise", statDependency: "ChGrade", gradeValues: gradeValues},
         {name: "Domestic Arts", statDependency: "Intelligence", gradeValues: gradeValues},
         {name: "Empathy", statDependency: "Intelligence", gradeValues: gradeValues},
@@ -393,7 +401,7 @@ $(document).ready(function() {
 
     // add custom
     $('#add-custom').click(function() {
-        var customRow = $('<div class="custom-row"><input type="text" class="custom"><select class="custom-grade"></select><input type="number" class="custom-price"><button class="remove-button">&times;</button></div>');
+        var customRow = $('<div class="custom-row"><input type="text" placeholder="Enter name" class="custom"><select class="custom-grade"></select><input type="number" placeholder="Cost" class="custom-price"><button class="remove-button">&times;</button></div>');
         $('#custom').append(customRow);
 
         populateGrades(customRow.find('.custom-grade'));
@@ -551,8 +559,7 @@ $(document).ready(function() {
             populateGrades(gradeDropdown);      //change this for dropdown
 
             var $techniqueItem = $('<div class="technique-item2" data-technique="' + technique + '"></div>');
-            $techniqueItem.append('<input type="checkbox" class="technique-discount"> ');
-            $techniqueItem.append(technique + ' ').append(gradeDropdown).append(' <span class="technique-cost">' + techniqueCosts2[technique][0] + '</span> <button class="remove-technique">&times;</button>');
+            $techniqueItem.append(technique + ' ').append(gradeDropdown).append(' <span class="technique-cost">' + techniqueCosts2[technique][0] + '</span> <input type="checkbox" class="technique-discount">' + "Discount" + '<button class="remove-button">&times;</button>');
             $techniqueList.append($techniqueItem);
             calculatePoints();
 
@@ -563,7 +570,11 @@ $(document).ready(function() {
                 calculatePoints();
             });
 
-            $('.remove-technique').click(function() {
+            $techniqueItem.find('.technique-discount').change(function() {
+                calculatePoints();
+            });
+
+            $('.remove-button').click(function() {
                 $(this).parent().remove();
                 calculatePoints();
             });
@@ -611,6 +622,8 @@ $(document).ready(function() {
             } else if (statDependency === 'Magic' && magic >= 7) {
                 shouldDisplay = true;
             } else if (statDependency === ' ') {
+                shouldDisplay = true;
+            } else if (statDependency === 'NULL') {
                 shouldDisplay = true;
             }
 
