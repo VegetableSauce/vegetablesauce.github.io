@@ -103,7 +103,7 @@ $(document).ready(function() {
         { name: "Lucky", statDependency: 'ChGrade', gradeValues: gradeValues, textInput: false  },
         { name: "Mentor", statDependency: 'ChGrade', gradeValues: gradeValues, textInput: false  },
         { name: "Mimic", statDependency: "Intelligence", gradeValues: gradeValues, textInput: false  },
-        { name: "Minions", statDependency: 'ChGrade', gradeValues: gradeValues4, textInput: false  },
+        { name: "Minions", statDependency: 'ChGrade', gradeValues: gradeValues2, textInput: false  },
         { name: "Narrative Booster", statDependency: 'ChGrade', gradeValues: gradeValues2, textInput: false  },
         { name: "Nullify", statDependency: "Intelligence", gradeValues: gradeValues5, textInput: true  },
         { name: "Pocket Dimension", statDependency: "Intelligence", gradeValues: gradeValues2, textInput: false  },
