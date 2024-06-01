@@ -785,3 +785,6 @@ function updateEquipmentCost(equipmentRow) {
     equipmentRow.find('.equipment-cost').text(cost);
 }
 
+function test() {
+    return;
+}
