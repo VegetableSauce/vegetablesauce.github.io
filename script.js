@@ -189,7 +189,14 @@ $(document).ready(function() {
         {name: "Swimming", statDependency: "Vitality", gradeValues: gradeValues, textInput: false },
         {name: "Traps", statDependency: "Precision", gradeValues: gradeValues, textInput: false },
         {name: "Visual Arts", statDependency: "Intelligence", gradeValues: gradeValues, textInput: false },
-        {name: "Warfare", statDependency: "Intelligence", gradeValues: gradeValues, textInput: false }
+        {name: "Warfare", statDependency: "Intelligence", gradeValues: gradeValues, textInput: false },
+        { name: '<-------------------------WIP-------------------------->', statDependency: ' ', gradeValues: gradeValues, textInput: false  },
+        {name: "Logging", statDependency: "Intelligence", gradeValues: gradeValues, textInput: false },
+        {name: "Polymorph", statDependency: "Intelligence", gradeValues: gradeValues4, textInput: false },
+        {name: "Magic School", statDependency: "NULL", gradeValues: gradeValues, textInput: true },
+        {name: "Magic Domain", statDependency: "NULL", gradeValues: gradeValues, textInput: true },
+        {name: "Martial Ethos", statDependency: "NULL", gradeValues: gradeValues, textInput: true },
+        {name: "Martial Mastery", statDependency: "NULL", gradeValues: gradeValues, textInput: true }
     ];
     //this is for specialized
     var techniqueCosts = {
