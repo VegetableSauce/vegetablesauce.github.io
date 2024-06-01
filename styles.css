@@ -14,6 +14,14 @@ input[type="number"] {
     width: 60px;
 }
 
+#bannerimage {
+    width: 100%;
+    background-image: url(https://www.rpnation.com/data/avatars/l/93/93653.jpg?1635370928);
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+}
+
 .remove-button {
     background-color: #ab0000;
     border: none;
