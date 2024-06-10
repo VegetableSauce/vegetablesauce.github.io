@@ -511,7 +511,7 @@ $(document).ready(function() {
                     for (var i = 0; i < relevantStatUpgrades - 2; i++) {
                         $(this).append('<option value="' + customGradeValues[i] + '">' + grades[i] + '</option>');
                     }
-                } else if (skillName === 'Attentive Student' || skillName === 'Appraisal (Isekai)' || skillName === 'Appraisal (Native)' || skillName === 'Componentless' || skillName === 'Narrative Booster') {
+                } else if (skillName === 'Attentive Student' || skillName === 'Appraisal (Isekai)' || skillName === 'Appraisal (Native)' || skillName === 'Componentless Magic' || skillName === 'Narrative Booster') {
                     for (var i = 0; i < relevantStatUpgrades + 1; i++) {
                         $(this).append('<option value="' + customGradeValues[i] + '">' + grades[i] + '</option>');
                     }
@@ -675,9 +675,9 @@ $(document).ready(function() {
                 shouldDisplay = false;
             }
 
-            if (skill.name === 'Componentless' && magic >= 0) {
+            if (skill.name === 'Componentless Magic' && magic >= 0) {
                 shouldDisplay = true;
-            } else if (skill.name === 'Componentless' && magic < 0) {
+            } else if (skill.name === 'Componentless Magic' && magic < 0) {
                 shouldDisplay = false;
             }
     
